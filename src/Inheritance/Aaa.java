@@ -2,7 +2,7 @@ package Inheritance;
 
 public class Aaa { // == public class Aaa extends Object
 	@SuppressWarnings("unused")
-	public void test() {
+	public static void main (String[] agr) {
 		int data01 = 20; // 4byte
 		Ccc data02 = new Ccc();
 		Object data03;
