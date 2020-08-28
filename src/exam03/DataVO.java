@@ -18,17 +18,17 @@ public class DataVO {
 		this.name = name;
 		this.hobby = hobby;
 	}
-	
+
 	public DataVO(int i) {
 		super();
-		if(i==0) {
-			id="0";
-			pw="0";
-			name="0";
-			hobby="0";
+		if (i == 0) {
+			id = "0";
+			pw = "0";
+			name = "0";
+			hobby = "0";
 		}
 	}
-	
+
 	public void setPw(String data) {
 //		if(권한 체크) {
 //		AOP를 이용해서 일괄적으로 권한을 체크하는 기술을 적용한다

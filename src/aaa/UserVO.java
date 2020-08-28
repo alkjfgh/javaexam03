@@ -8,6 +8,16 @@ public class UserVO {
 	private int birth;
 	private int level;
 
+	private boolean aa;
+
+	public boolean isAa() {
+		return aa;
+	}
+
+	public void setAa(boolean aa) {
+		this.aa = aa;
+	}
+
 	public UserVO() {
 		super();
 	}
